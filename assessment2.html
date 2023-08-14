@@ -1,0 +1,1193 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.4/dist/jquery.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous"></head>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+  <title>Viet Web</title>
+</head>
+
+<body data-spy="scroll" data-target="#navbar-site" data-offset="80"><br><br>
+<style>
+  body {
+    background-image:url(images/background.jpg) ;
+    background-size: cover;
+  }
+</style>
+
+
+<!-- Search bar -->
+  <div><a id="tool"></a>
+    <br><br><button type="button" onclick="getInputValue();">Search</button>
+     <input type="text" placeholder="" id="myInput">
+       <script>
+          function getInputValue(){
+               //Selecting the input element and get its value 
+               var inputVal = document.getElementById("myInput").value;
+               
+               //Displaying the value
+               alert("What you searched was: " + inputVal);
+           }
+       </script> 
+   </div> 
+<!-- Search bar -->
+
+
+<!-- POPOVER -->
+
+<head>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+<div class="container">
+  <a href="#" data-toggle="popover" title="VietWeb.com" data-placement="bottom" data-content="Greetings and welcome to VietWeb.com! Explore the vibrant wonders of Vietnam and its rich culture with VietWeb.com. Our platform is tailored for individuals who possess a keen interest in unraveling the beauty and intricacies of Vietnam. Join us on a captivating journey of discovery and immerse yourself in the essence of this remarkable nation.">VietWeb.com</a>
+</div>
+
+<script>
+$(document).ready(function(){
+  $('[data-toggle="popover"]').popover();   
+});
+</script>
+
+</body>
+<!-- POPOVER -->
+
+
+
+<!-- logo -->
+<div class="header">
+  <center><h1 style="height:max-content;"><img width="130" height="130" src="images/logo.png"><br><br>
+  Home Page
+</h1</center><br><br>
+<center><h4>"Vietnam: Where Diversity Ignites Inspiration."</h4></center>
+</div><br><br>
+<!-- logo -->
+
+
+<div class="container" >
+  <center><p style="font-size: larger;">Vietnam, a captivating Southeast Asian nation, invites you to discover its rich tapestry of culture, history, and natural beauty. 
+    With a population exceeding 97 million, Vietnam's people exude warmth and hospitality, creating a welcoming atmosphere for visitors. 
+    From the bustling streets of Hanoi, the capital city, to the vibrant energy of Ho Chi Minh City, modern life seamlessly merges with ancient traditions.<br><br>
+
+    Steeped in a history marked by resilience and transformation, Vietnam showcases its journey from ancient kingdoms to colonial influences and a vibrant present. 
+    The country's landscapes are equally enchanting, from the terraced rice fields of Sapa to the breathtaking limestone formations of Ha Long Bay.<br><br>
+    
+    Vietnamese cuisine is renowned globally for its bold flavors and fresh ingredients. 
+    Delight in the iconic flavors of pho, banh mi, and spring rolls as you embark on a culinary adventure that reflects the nation's soul.<br><br>
+    
+    As you explore Vietnam, you'll encounter a harmonious blend of tradition and progress, where historical landmarks stand alongside modern developments. 
+    Whether you're navigating bustling markets, serene temples, or bustling cities, 
+    Vietnam offers an immersive experience that captures the heart and imagination, 
+    leaving an indelible mark on all who journey through its diverse and captivating landscapes.<br>
+  </p></center>
+</div>
+
+
+<!-- navbar-nav -->
+  <nav id="navbar-site" class="navbar navbar-dark bg-dark navbar-expand-sm fixed-top right">
+    <div class="container">
+      <a class="navbar-brand" href="#">Terry Luong s8058792</a>
+      <ul class="navbar-nav">
+        <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="#cara">Carousel</a></li>
+        <li class="nav-item"><a class="nav-link" href="#card">Card</a></li>
+        <li class="nav-item"><a class="nav-link" href="#table2">Table 2</a></li>
+        <li class="nav-item"><a class="nav-link" href="#cara1">Carousel 2</a></li>
+        <li class="nav-item"><a class="nav-link" href="#form">Form</a></li>
+        <li class="nav-item"><a class="nav-link" href="#table1">Table 1</a></li>
+        <li class="nav-item"><a class="nav-link" href="#coll">Collapsible</a></li>
+        <li class="nav-item"><a class="nav-link" href="#jumbo">Jumbotron</a></li>
+        <!-- Dropdown -->
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+            More exercise
+          </a>
+          <div class="dropdown-menu">
+            <a class="dropdown-item" href="#modal">Model exercise</a>
+            <a class="dropdown-item" href="#media">Media Object exercise</a>
+            <a class="dropdown-item" href="#tool">Tool Tip exercise</a>
+            <a class="dropdown-item" href="#filter">Another exercise</a>
+            <a class="dropdown-item" href="#foot">Footer</a>
+          </div>
+        </li>
+        <!-- Dropdown -->
+      </ul>
+    </div>
+  </nav>
+<!-- navbar-nav -->
+  
+
+  <br><br><br><hr>
+  <div class="container mt-3" id="home">
+  <br><br>
+
+
+<!-- ROW 1 -->
+    <br><center><h1>"Vietnam Unveiled: Landscapes, Traditions, and Beyond"</h1></center><br>
+    <div class="container">  
+      <center><h1><i class="fas fa-heart"></i></h1></center>
+    </div>
+    <br><br>
+    <div class="row">
+      <section class="col">
+        <img src="images/connguoi.jpg" alt="sample image" width="100%" height="350px" max-height="350px">
+        <h4>1. Vietnamese people</h4>
+        <p style="font-size: large;">Vietnamese people are a tapestry of warmth, resilience, and cultural richness. 
+          With a strong sense of community, they welcome visitors with open arms, sharing their traditions and stories. 
+          Rooted in a history of overcoming challenges, Vietnamese individuals exude a remarkable spirit that reflects their enduring strength. 
+          From bustling city streets to serene villages, their daily lives are a reflection of deep-rooted values and traditions. 
+          Whether savoring the flavors of local cuisine or engaging in heartfelt conversations, 
+          interacting with Vietnamese people offers a genuine and heartwarming glimpse into the heart and soul of this captivating nation.</p>
+      </section>
+      <section class="col">
+        <img src="images/food.jpg" alt="sample image" width="100%" height="350px" max-height="350px">
+        <h4>2. Vietnamese's food</h4>
+        <p style="font-size: large;">Vietnamese cuisine is a captivating symphony of flavors, 
+          celebrated for its fresh ingredients and harmonious balance. 
+          From the iconic pho, a soul-warming noodle soup, to the irresistible banh mi, 
+          a fusion of French and Vietnamese culinary artistry, every dish tells a story. 
+          Vibrant herbs, delicate spices, and meticulous preparation transform ingredients into exquisite masterpieces that tantalize the palate. 
+          The vibrant street food culture further entices with savory spring rolls, aromatic grilled meats, and delectable sweet treats. 
+          With its rich history and diverse influences, 
+          Vietnamese food is a culinary journey that captures the heart and leaves an indelible mark on every gastronomic adventure.</p>
+      </section>
+    </div><br>
+<!-- END ROW 1 -->
+
+
+<!-- ROW 2 -->
+    <div class="row">
+      <section class="col">
+        <img src="images/hoasen.jpg" alt="sample image" width="100%" height="350px" max-height="350px">
+        <h4>3. Lotus</h4>
+        <p style="font-size: large;">The Vietnamese lotus, revered as a symbol of purity and enlightenment, 
+          holds a special place in the country's cultural tapestry. 
+          Rising elegantly from muddy waters, the lotus embodies resilience and beauty amid adversity. 
+          Its delicate petals and enchanting fragrance have inspired poets, artists, and spiritual seekers for generations. 
+          In Vietnamese folklore and art, the lotus is a timeless motif, representing grace, strength, and spiritual awakening. 
+          Beyond its symbolic significance, the lotus is an integral part of Vietnamese cuisine and daily life, with its seeds, stems, 
+          and flowers being used in various culinary and medicinal applications. The Vietnamese lotus encapsulates the nation's ethos, 
+          reflecting a harmonious blend of nature, tradition, and spirituality.</p>
+      </section>
+      <section class="col">
+        <img src="images/nonla.jpg" alt="sample image" width="100%" height="350px" max-height="350px">
+        <h4>4. Non La</h4>
+        <p style="font-size: large;">The <strong>Vietnamese Non La</strong>, often called a "conical hat", 
+          is an iconic symbol of Vietnam's culture and heritage. 
+          This unique and elegant hat, crafted from palm leaves, has been worn by generations of Vietnamese people, 
+          providing shelter from the sun and rain while exuding a timeless charm. 
+          The Non La embodies the grace and resilience of Vietnam, 
+          reflecting its deep connection to rural traditions and the natural world. 
+          With its gently sloping form and intricate craftsmanship, the Non La stands as a symbol of both practicality and beauty, 
+          encapsulating the essence of Vietnamese life and adding a touch of tradition to the modern world.</p>
+      </section>
+    </div><br>
+<!-- END ROW 2 -->
+
+
+<!-- ROW 3 -->
+  <div class="row">
+    <section class="col">
+      <img src="images/phongcanh.jpg" alt="sample image" width="100%" height="350px" max-height="350px">
+      <h4>5. Vietnamese's landscapes</h4>
+      <p style="font-size: large;">Vietnam's landscapes paint an awe-inspiring picture of natural beauty. 
+        From the emerald terraced rice fields that ripple across the hills of Sapa to the ethereal limestone formations that grace the waters of Ha Long Bay, 
+        each scene is a masterpiece. 
+        The lush Mekong Delta's intricate waterways and the serene beaches of Phu Quoc Island offer tranquil escapes, 
+        while the vibrant chaos of Hanoi's Old Quarter immerses you in urban energy. 
+        The country's diverse terrain, with its cascading waterfalls, mist-covered mountains, 
+        and pristine coastlines, creates a kaleidoscope of visuals that captivate the soul and ignite a sense of wonder.</p>
+    </section>
+    <section class="col">
+      <img src="images/quocky.jpg" alt="sample image" width="100%" height="350px" max-height="350px">
+      <h4>6. Vietnamese's flag</h4>
+      <p style="font-size: large;">The Vietnamese flag, proudly known as the "Red Flag with Yellow Star", 
+        encapsulates the nation's history and aspirations. 
+        Its bold red background symbolizes the sacrifices made for independence and the determination to forge a unified identity. 
+        At its heart shines a radiant yellow star, representing the Vietnamese people's resilience, 
+        unity, and hope. This iconic flag serves as a powerful emblem of Vietnam's rich heritage, unwavering spirit, 
+        and enduring quest for a brighter future.</p>
+    </section>
+  </div><br><br><br><br><hr>
+<!-- END ROW 3 -->
+
+
+<!-- start of second exercise -->
+<a id="cara"></a><br><br>
+    <section class="content">
+    <br><center><h1>Vietnamese's traditional costumes</h1></center><br>
+    <center><h1><i class="fas fa-heart"></i></h1></center>
+    <br><br>
+    <p style="font-size: large;">Vietnam is adorned with a diverse array of traditional costumes that eloquently express the country's cultural depth and heritage. 
+      The iconic <strong>"Ao Dai"</strong> encapsulates Vietnamese elegance, 
+      a flowing tunic paired with trousers, embodying grace and sophistication. 
+      The <strong>"Non La"</strong>, or conical hat, is a symbol of rural life and sun protection, worn ubiquitously.</p>
+
+    <p style="font-size: large;">For men, the <strong>"Ao Gam"</strong> is a resplendent silk tunic reserved for ceremonial occasions, 
+      adorned with intricate motifs and embroidery. 
+      In contrast, the <strong>"Ao Ba Ba"</strong> is a more casual attire, reflecting the rustic charm of southern Vietnam.</p>
+    
+    <p style="font-size: large;">Vietnam's ethnic diversity is magnificently reflected in costumes like the elaborate and colorful garments of the Hmong people. 
+      The Cham community dons unique outfits adorned with exquisite jewelry, reflecting their distinct heritage.</p>
+    
+    <p style="font-size: large;">The <strong>"Ao Tu Than"</strong> and <strong>"Ao Nhat Ban"</strong> are celebrated vestiges of history, 
+      with the former representing traditional elegance, and the latter showcasing a fusion of Vietnamese and Japanese styles.</p>
+    
+   
+    <p style="font-size: large;">These costumes are not merely fabric and design; 
+      they encapsulate narratives of tradition, identity, 
+      and artistic finesse, weaving a rich tapestry of Vietnam's cultural legacy.</p>
+    </section>
+    <br>
+<!-- end  of second exercise -->
+
+
+<!-- CAROUSEL -->
+<div class="container">
+  <style>
+
+    #changeheight{
+                
+                height: 580px;
+                max-height: 580px;
+            }
+    
+    </style>
+
+ 
+
+<div class="row">   <!-- Use a grid to place Carousel in to display it in the middle -->
+<div class="col"></div>
+<div class="col-6">
+
+<div id="demo" class="carousel slide" data-ride="carousel">
+
+<!-- Indicators -->
+<ul class="carousel-indicators">
+  <li data-target="#demo" data-slide-to="0" class="active"></li>
+  <li data-target="#demo" data-slide-to="1"></li>
+  <li data-target="#demo" data-slide-to="2"></li>
+  <li data-target="#demo" data-slide-to="3"></li>
+  <li data-target="#demo" data-slide-to="4"></li>
+  <li data-target="#demo" data-slide-to="5"></li>
+  <li data-target="#demo" data-slide-to="6"></li>
+  <li data-target="#demo" data-slide-to="7"></li>
+  <li data-target="#demo" data-slide-to="8"></li>
+  <li data-target="#demo" data-slide-to="9"></li>
+  <li data-target="#demo" data-slide-to="10"></li>
+  <li data-target="#demo" data-slide-to="11"></li>
+  <li data-target="#demo" data-slide-to="12"></li>
+  <li data-target="#demo" data-slide-to="13"></li>
+</ul>
+
+<!-- The slideshow -->
+
+<div class="carousel-inner">
+  <div class="carousel-item active">
+    <img id="changeheight" src="images/1.jpg" alt="1" class="img-thumbnail">
+  </div>
+  <div class="carousel-item">
+    <img id="changeheight" src="images/2.jpg" alt="2" class="img-thumbnail">
+  </div>
+  <div class="carousel-item">
+    <img id="changeheight" src="images/3.jpg" alt="3" class="img-thumbnail">
+  </div>
+  <div class="carousel-item">
+    <img id="changeheight" src="images/4.jpg" alt="4" class="img-thumbnail">
+  </div>
+  <div class="carousel-item">
+    <img id="changeheight" src="images/5.jpg" alt="5" class="img-thumbnail">
+  </div>
+  <div class="carousel-item">
+    <img id="changeheight" src="images/6.jpg" alt="6" class="img-thumbnail">
+  </div>
+  <div class="carousel-item">
+    <img id="changeheight" src="images/7.jpg" alt="7" class="img-thumbnail">
+  </div>
+  <div class="carousel-item">
+    <img id="changeheight" src="images/8.jpg" alt="8" class="img-thumbnail">
+  </div>
+  <div class="carousel-item">
+    <img id="changeheight" src="images/9.jpg" alt="9" class="img-thumbnail">
+  </div>
+  <div class="carousel-item">
+    <img id="changeheight" src="images/10.jpg" alt="10" class="img-thumbnail">
+  </div>
+  <div class="carousel-item">
+    <img id="changeheight" src="images/11.jpg" alt="11" class="img-thumbnail">
+  </div>
+  <div class="carousel-item">
+    <img id="changeheight" src="images/12.jpg" alt="12" class="img-thumbnail">
+  </div>
+  <div class="carousel-item">
+    <img id="changeheight" src="images/13.jpg" alt="13" class="img-thumbnail">
+  </div>
+  <div class="carousel-item">
+    <img id="changeheight" src="images/14.jpg" alt="14" class="img-thumbnail">
+  </div>
+</div>
+
+  <br><br><br>
+
+  <!-- Left and right controls -->
+  <a class="carousel-control-prev" href="#demo" data-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </a>
+  <a class="carousel-control-next" href="#demo" data-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </a>
+  </div>
+
+  </div>  <!-- of the grid-->
+  <div class="col"></div>
+  </div>
+  </div><br><br><br><hr>
+<!--END CAROUSEL -->
+
+
+<!-- CARD -->
+<a id="card"></a><br><br>
+<br><center><h1>Vietnamese national heroes</h1></center><br>
+<center><h1><i class="fas fa-heart"></i></h1></center>
+<br><br>
+<center><p>Vietnamese national heroes are individuals who have 
+  demonstrated exceptional contributions to the preservation and progress of the Vietnamese nation. 
+  Revered by the people as heroic figures, these individuals have played significant roles in 
+  Vietnam's historical development and are recorded in the annals of the nation's history. 
+  Their actions and sacrifices have left an indelible mark on the collective consciousness of the Vietnamese people, 
+  inspiring a sense of patriotism and pride.</p></center><br>
+  <div class="card-deck">
+    <div class="card" style="background-color: #daa484;">
+      <img class="card-img-top" src="images/ngoquyen.jpg" alt="card image" width="200" height="425" >
+      <div class="card-body text-center">
+        <h4>Ngo Quyen</h4>
+        <p>General Ngo Quyen holds a significant place in Vietnamese history as a notable military leader and strategist. 
+          He achieved a pivotal victory in 938 AD at the Battle of Bach Dang River, 
+          which marked a turning point in Vietnam's fight against Chinese domination. 
+          Ngo Quyen's ingenious use of submerged stakes to immobilize the enemy fleet showcased his tactical 
+          brilliance and determination to secure Vietnamese sovereignty. His triumph at Bach Dang River paved 
+          the way for a period of self-rule and strengthened the foundation of an independent Vietnam.</p>
+      </div>
+    </div>
+    <div class="card" style="background-color: #daa484;">
+      <img class="card-img-top" src="images/bacho.jpg" alt="card image" width="200" height="425" >
+      <div class="card-body text-center">
+        <h4>Ho Chi Minh</h4>
+        <p>Ho Chi Minh, a prominent figure in Vietnamese history, 
+          served as the President of North Vietnam from 1945 to 1969. 
+          He played a crucial role in leading the country's struggle for independence against colonial powers, 
+          particularly the French and later the United States during the Vietnam War. 
+          Ho Chi Minh was not only a revolutionary leader but also a key architect in shaping the modern Vietnamese nation. 
+          His dedication to the cause of independence and his leadership left a lasting impact on the course of Vietnamese history.</p>
+      </div>
+    </div>
+    <div class="card" style="background-color: #daa484;">
+      <img class="card-img-top" src="images/haibatrung.jpg" alt="card image" width="200" height="425" >
+      <div class="card-body text-center">
+        <h4>Hai Ba Trung</h4>
+        <p>Generals Hai Ba Trung, often referred to as the Trung Sisters, 
+          are revered figures in Vietnamese history for their fearless leadership and valiant resistance against Chinese rule. 
+          In the first century AD, Trung Trac and Trung Nhi led a successful uprising that briefly restored Vietnamese autonomy. 
+          Their unwavering determination, along with their ability to rally local support, 
+          resulted in a significant challenge to foreign domination. 
+          The Trung Sisters' legacy symbolizes the spirit of Vietnamese independence 
+          and serves as an enduring source of inspiration for generations to come.</p>
+      </div>
+    </div>
+  </div>
+  <br>
+<!-- END CARD -->
+
+
+<!-- collapsible -->
+<div class="container">
+  <div class="row">
+    <section class="col">
+      <!-- COLLAPSIBLE TEXT -->
+      <div class="container">
+        <center><button type="button" class="btn btn-info" data-toggle="collapse" data-target="#demo">More Information</button></center>
+        <center><div id="demo" class="collapse">
+          Title: The Triumph of Ngo Quyen<br>
+
+          In the heart of ancient Vietnam, where legends intertwined with reality, there lived a courageous warrior named Ngo Quyen. The land was oppressed under the rule of the foreign forces, and the people yearned for freedom like a caged bird yearns for the open sky.
+          
+          Ngo Quyen, a man of unwavering determination and indomitable spirit, saw the suffering of his fellow countrymen and decided that he would be the spark that ignites the flames of liberation. With a heart full of resolve and a mind sharpened by experience, he began to gather like-minded individuals who shared his dream of a free and independent Vietnam.
+          
+          His plan was audacious: to challenge the oppressive regime on the water, where the foreign forces felt most secure. Ngo Quyen knew that the element of surprise would be his greatest ally. With the help of his loyal companions, he meticulously devised a strategy that would catch the enemy off guard.
+          
+          On a misty morning, as the first light of dawn painted the sky with hues of orange and gold, Ngo Quyen and his band of brave warriors set sail on a fleet of small boats, ready to confront the imposing enemy ships that had ruled their waters for far too long. As they approached the battle scene, hearts raced and palms sweated, but there was no turning back now.
+          
+          The battle was fierce and unrelenting. Ngo Quyen's forces fought valiantly, using their knowledge of the waters and their determination to overcome the seemingly insurmountable odds. With every strike of their weapons, they carved a path towards victory, drawing closer and closer to the enemy ships.
+          
+          In a moment of pure courage, Ngo Quyen leaped from his boat onto the deck of the enemy flagship, his blade gleaming in the sunlight. His presence was a beacon of hope for his comrades, and they rallied behind him with renewed vigor. The battle reached its climax, and the waters turned crimson as victory hung in the balance.
+          
+          And then, as if guided by the spirits of the land itself, a gust of wind blew across the water, pushing the enemy ships towards the shore. Caught off guard, the foreign forces were unable to regain control, and Ngo Quyen's forces seized the opportunity. With a final, decisive strike, they emerged triumphant.
+          
+          The cheers of victory echoed through the land, a testament to the unwavering spirit of Ngo Quyen and his comrades. The people rejoiced, and a sense of newfound freedom enveloped the land like a warm embrace. Ngo Quyen had achieved the impossible, proving that even in the face of overwhelming odds, the power of determination and unity could overcome even the mightiest of foes.
+          
+          And so, the legend of Ngo Quyen lived on, a reminder that the pursuit of freedom and justice is worth any sacrifice. His story became a beacon of hope for generations to come, a symbol of the enduring spirit of the Vietnamese people and their unyielding desire for a brighter future.      </div>
+      <!-- END COLLAPSIBLE TEXT -->
+    </section>
+    <section class="col">
+      <!-- COLLAPSIBLE TEXT -->
+      <div class="container">
+        <center><button type="button" class="btn btn-info" data-toggle="collapse" data-target="#demo">More Information</button></center>
+        <center><div id="demo" class="collapse">    
+          Title: Blossoms of Resilience<br>
+
+In the heart of bustling Hanoi, amidst the winding streets and vibrant markets, lived an old man named Minh. He was a humble flower seller, known for his radiant smile and his remarkable collection of bonsai trees. Yet, his true identity was veiled in a past shrouded by history.
+
+Minh had once been a fervent revolutionary, standing shoulder to shoulder with Ho Chi Minh during the struggle for Vietnam's independence. He had witnessed the country's transformation from colonial rule to an independent nation. Now, in his twilight years, Minh dedicated himself to nurturing bonsai trees—a living testament to the endurance and beauty that emerged from the chaos of the past.
+
+Every morning, Minh would carefully tend to his miniature trees, each one a symbol of his unwavering spirit. As he pruned the branches and watered the delicate roots, he reflected on the struggles he had faced and the sacrifices he had made. Just as he had helped shape the destiny of his country, he now shaped the destiny of these trees, guiding them towards strength and vitality.
+
+One day, a young tourist named Linh wandered into Minh's quaint shop. She marveled at the intricate bonsai creations, each telling a story of resilience and growth. Intrigued by Minh's wisdom, Linh struck up a conversation. Minh shared anecdotes from his past, transporting Linh to a different era and immersing her in the history of Vietnam.
+
+Linh returned to Minh's shop day after day, eager to hear more stories and learn about the art of bonsai. As their bond grew, Minh saw a spark of curiosity and determination in Linh's eyes—a spark he recognized from his own youth. He sensed a desire within her to contribute to her country's future, just as he had done in his own time.
+
+With a knowing smile, Minh gifted Linh a small bonsai sapling—a symbol of hope and continuity. He whispered, "Just as you care for this tree, remember to care for your dreams. They, too, require patience, nurturing, and unwavering dedication."
+
+Years passed, and Linh's bond with Minh deepened. She became an advocate for environmental conservation, drawing inspiration from the resilience of Minh's bonsai trees and the stories he had shared. Linh's efforts led to the creation of community gardens and green spaces across Hanoi, transforming the urban landscape and reminding people of the beauty that could emerge from even the harshest conditions.
+
+Minh's legacy lived on through Linh's work, a testament to the enduring power of his ideals and the indomitable spirit of Vietnam. As he tended to his bonsai trees, Minh knew that the blossoms of resilience he had nurtured would continue to flourish, carrying his story and the story of his nation into the future.      
+        </div></center>
+      </div>
+      <!-- END COLLAPSIBLE TEXT -->
+    </section>
+    <section class="col">
+      <!-- COLLAPSIBLE TEXT -->
+      <div class="container">
+        <center><button type="button" class="btn btn-info" data-toggle="collapse" data-target="#demo">More Information</button></center>
+        <center><div id="demo" class="collapse">   
+          Title: "The Valor of Hai Ba Trung"<br>
+
+In a small village nestled amidst the lush Vietnamese countryside, a sense of oppression had gripped the people for years. They longed for a glimmer of hope, a flicker of courage that would ignite their spirits and lead them out of the shadows. And that hope arrived in the form of two sisters, Trung Trac and Trung Nhi, who would later be immortalized as Hai Ba Trung – the two heroines of Vietnam.
+
+Trac and Nhi were not born into wealth or power, but they possessed an unwavering determination to bring about change. As they grew, they witnessed their people suffer under the tyranny of foreign rulers, and their hearts burned with a desire to free their homeland from the shackles of oppression.
+
+One day, a traveling storyteller arrived in their village. He regaled the villagers with tales of great heroes and their remarkable feats. Inspired by these stories, Trac and Nhi felt a renewed sense of purpose. They decided that they, too, would become legends in their own right, defending their people from injustice.
+
+Gathering a band of loyal followers, the sisters embarked on a journey to liberate their land. Clad in armor and riding majestic steeds, they led their army into battle against the oppressive forces. Their determination was unyielding, their resolve unbreakable, and their courage contagious.
+
+The people watched in awe as the sisters fearlessly fought on the front lines, rallying their troops with fiery speeches that echoed through the valleys. With each victory, the legend of Hai Ba Trung spread far and wide, kindling the flames of hope in the hearts of those who had once felt powerless.
+
+As the battle raged on, Trac and Nhi's efforts caught the attention of neighboring villages, who joined their cause in a show of solidarity. United by a common purpose, they formed a formidable alliance that struck fear into the hearts of the oppressors.
+
+Finally, after years of fierce struggle, victory was within reach. The sisters led a final charge, their courage shining brighter than ever. Their determination was infectious, and the enemy forces began to falter. The people's unwavering belief in the sisters' cause proved to be their greatest weapon.
+
+In the end, the forces of oppression were vanquished, and the sisters stood victorious. Their names would forever be etched into the annals of history, remembered as the symbols of resistance and the embodiment of the Vietnamese spirit.
+
+The story of Hai Ba Trung lives on as a testament to the power of courage, unity, and the unyielding determination of ordinary individuals who dared to dream of a better future. Their legacy continues to inspire generations, reminding the world that even in the face of insurmountable odds, the human spirit can rise above and create enduring change.       
+        </div></center>
+      </div>
+      <!-- END COLLAPSIBLE TEXT -->
+    </section>
+  </div>
+</div>
+<!-- collapsible -->
+
+
+
+<br><br><br><hr>
+<!-- START HOVERABLE DARK TABLE -->
+<a id="table2"></a><br><br>
+<div class="container">
+  <br><center><h1>Beautiful places in Viet Nam</h1></center><br>
+  <center><h1><i class="fas fa-heart"></i></h1></center>
+  <br><br>
+    <table class="table table-dark table-hover" style="background-color:#daa484 ;">
+      <tbody>
+        <tr>
+          <td><h4>Ha Long Bay</h4><br><p>A UNESCO World Heritage Site, Ha Long Bay's emerald waters are dotted with thousands of towering limestone islands, creating a mesmerizing seascape that's best explored by boat.</p></td>
+          <td><h4>Hoi An</h4><br><p>This ancient town is renowned for its charming lantern-lit streets, historic architecture, and bustling markets. It's a perfect blend of culture, history, and local life.</p></td>
+        </tr>
+        <tr>
+          <td><h4>Sapa</h4><br><p>The terraced fields of Sapa, along with its misty mountains and vibrant hill tribes, offer a captivating trekking experience and a glimpse into the lives of local communities.</p></td>
+          <td><h4>Phong Nha-Ke Bang National Park</h4><br><p>Home to some of the world's largest and most stunning cave systems, this park is a paradise for spelunkers and nature enthusiasts.</p></td>
+        </tr>
+        <tr>
+          <td><h4>Ninh Binh</h4><br><p>Often referred to as "Ha Long Bay on Land," Ninh Binh's karst landscapes, lush rice paddies, and ancient temples are a feast for the eyes.</p></td>
+          <td><h4>My Son Sanctuary</h4><br><p>Explore the ancient ruins of Hindu temples nestled in a lush valley, showcasing the rich cultural heritage of Vietnam.</p></td>
+        </tr>
+        <tr>
+          <td><h4>Da Nang</h4><br><p>With its pristine beaches, Marble Mountains, and the famous Golden Bridge, Đà Nẵng offers a blend of natural beauty and modern attractions.</p></td>
+          <td><h4>Nha Trang</h4><br><p>A coastal gem, Nha Trang is famous for its stunning beaches, vibrant coral reefs, and water sports activities.</p></td>
+        </tr>
+        <tr>
+          <td><h4>Phu Quoc Island</h4><br><p>Vietnam's largest island is a tropical paradise with white sandy beaches, clear waters, and a relaxed atmosphere.</p></td>
+          <td><h4>Ho Chi Minh City</h4><br><p>While a bustling urban center, Ho Chi Minh City has its own charm with historic landmarks, bustling markets, and vibrant street life.</p></td>
+        </tr>
+      </tbody>
+    </table>
+    <a id="cara1"></a>
+    <center><p>These are just a few of the many beautiful places that Vietnam has to offer. Each destination showcases a unique facet of the country's natural beauty, culture, and history.</p></center>
+</div><br>
+<!-- END HOVERABLE DARK TABLE -->
+
+
+<!-- CAROUSEL -->
+
+  <style>
+
+    #changeheight1{
+              width: 580px;
+              height: 380px;
+            }
+    
+    </style>
+
+ 
+
+<div class="row">   <!-- Use a grid to place Carousel in to display it in the middle -->
+<div class="col"></div>
+<div class="col-6">
+
+<div id="demo1" class="carousel slide" data-ride="carousel">
+
+<!-- Indicators -->
+<ul class="carousel-indicators">
+  <li data-target="#demo1" data-slide-to="0" class="active"></li>
+  <li data-target="#demo1" data-slide-to="1"></li>
+  <li data-target="#demo1" data-slide-to="2"></li>
+  <li data-target="#demo1" data-slide-to="3"></li>
+  <li data-target="#demo1" data-slide-to="4"></li>
+  <li data-target="#demo1" data-slide-to="5"></li>
+  <li data-target="#demo1" data-slide-to="6"></li>
+  <li data-target="#demo1" data-slide-to="7"></li>
+  <li data-target="#demo1" data-slide-to="8"></li>
+  <li data-target="#demo1" data-slide-to="9"></li>
+  <li data-target="#demo1" data-slide-to="10"></li>
+  <li data-target="#demo1" data-slide-to="11"></li>
+  <li data-target="#demo1" data-slide-to="12"></li>
+  <li data-target="#demo1" data-slide-to="13"></li>
+  <li data-target="#demo1" data-slide-to="14"></li>
+  <li data-target="#demo1" data-slide-to="15"></li>
+  <li data-target="#demo1" data-slide-to="16"></li>
+  <li data-target="#demo1" data-slide-to="17"></li>
+  <li data-target="#demo1" data-slide-to="18"></li>
+  <li data-target="#demo1" data-slide-to="19"></li>
+  <li data-target="#demo1" data-slide-to="20"></li>
+  <li data-target="#demo1" data-slide-to="21"></li>
+  <li data-target="#demo1" data-slide-to="22"></li>
+  <li data-target="#demo1" data-slide-to="23"></li>
+  <li data-target="#demo1" data-slide-to="24"></li>
+</ul>
+
+<!-- The slideshow -->
+
+<div class="carousel-inner">
+  <div class="carousel-item active">
+    <img id="changeheight1" src="images/1.2.jpg" alt="1" class="img-thumbnail">
+  </div>
+  <div class="carousel-item">
+    <img id="changeheight1" src="images/1.3.jpg" alt="2" class="img-thumbnail">
+  </div>
+  <div class="carousel-item">
+    <img id="changeheight1" src="images/1.4.jpg" alt="3" class="img-thumbnail">
+  </div>
+  <div class="carousel-item">
+    <img id="changeheight1" src="images/1.5.jpg" alt="4" class="img-thumbnail">
+  </div>
+  <div class="carousel-item">
+    <img id="changeheight1" src="images/1.6.jpg" alt="5" class="img-thumbnail">
+  </div>
+  <div class="carousel-item">
+    <img id="changeheight1" src="images/1.7.jpg" alt="6" class="img-thumbnail">
+  </div>
+  <div class="carousel-item">
+    <img id="changeheight1" src="images/1.8.jpg" alt="7" class="img-thumbnail">
+  </div>
+  <div class="carousel-item">
+    <img id="changeheight1" src="images/1.9.jpg" alt="8" class="img-thumbnail">
+  </div>
+  <div class="carousel-item">
+    <img id="changeheight1" src="images/1.10.jpg" alt="9" class="img-thumbnail">
+  </div>
+  <div class="carousel-item">
+    <img id="changeheight1" src="images/1.11.jpg" alt="10" class="img-thumbnail">
+  </div>
+  <div class="carousel-item">
+    <img id="changeheight1" src="images/1.12.jpg" alt="11" class="img-thumbnail">
+  </div>
+  <div class="carousel-item">
+    <img id="changeheight1" src="images/1.13.jpg" alt="12" class="img-thumbnail">
+  </div>
+  <div class="carousel-item">
+    <img id="changeheight1" src="images/1.14.jpg" alt="13" class="img-thumbnail">
+  </div>
+  <div class="carousel-item">
+    <img id="changeheight1" src="images/1.15.jpg" alt="14" class="img-thumbnail">
+  </div>
+  <div class="carousel-item">
+    <img id="changeheight1" src="images/1.16.jpg" alt="15" class="img-thumbnail">
+  </div>
+  <div class="carousel-item">
+    <img id="changeheight1" src="images/1.17.jpg" alt="16" class="img-thumbnail">
+  </div>
+  <div class="carousel-item">
+    <img id="changeheight1" src="images/1.18.jpg" alt="17" class="img-thumbnail">
+  </div>
+  <div class="carousel-item">
+    <img id="changeheight1" src="images/1.19.jpg" alt="18" class="img-thumbnail">
+  </div>
+  <div class="carousel-item">
+    <img id="changeheight1" src="images/1.20.jpg" alt="19" class="img-thumbnail">
+  </div>
+  <div class="carousel-item">
+    <img id="changeheight1" src="images/1.21.jpg" alt="20" class="img-thumbnail">
+  </div>
+  <div class="carousel-item">
+    <img id="changeheight1" src="images/1.22.jpg" alt="21" class="img-thumbnail">
+  </div>
+  <div class="carousel-item">
+    <img id="changeheight1" src="images/1.23.jpg" alt="22" class="img-thumbnail">
+  </div>
+  <div class="carousel-item">
+    <img id="changeheight1" src="images/1.24.jpg" alt="23" class="img-thumbnail">
+  </div>
+  <div class="carousel-item">
+    <img id="changeheight1" src="images/1.25.jpg" alt="24" class="img-thumbnail">
+  </div>
+</div>
+
+  <br><br><br>
+
+  <!-- Left and right controls -->
+  <a class="carousel-control-prev" href="#demo1" data-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </a>
+  <a class="carousel-control-next" href="#demo1" data-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </a>
+  </div>
+
+  </div>  <!-- of the grid-->
+  <div class="col"></div>
+  </div>
+  <br><br><br><hr>
+<!--END CAROUSEL -->
+
+
+
+<!-- Form -->
+  <a id="form"></a><br><br>
+  <br><center><h1>Join us!</h1></center><br>
+  <center><h1><i class="fas fa-heart"></i></h1></center>
+  <br><br>
+  <center><p>Embark on a captivating journey with us to delve into the intricate tapestry of Vietnamese culture and its vibrant people. 
+    Join us now and unlock a world of fascinating insights into Vietnam's rich heritage and captivating way of life.</p></center><br>
+  <form>
+    </div>
+    <form id="frm1">
+      <center><label> 
+        First name: <input type="firstname" placeholder="Enter your first name" size="20" id="fn"><br><br>
+        Last name: <input type="lastname" placeholder=" Enter your last name" size="20" id="ln"><br><br>
+        Username: <input type="username" placeholder="Enter your username" size="20" id="un"><br><br>
+        Email address: <input type="email" placeholder="Enter your email address" size="21" id="ea"><br><br>
+        Password: <lable><input type="password" placeholder="Enter your password" id="pw"/></lable><br><br>
+        Confirm Password: <lable><input type="password" placeholder="Confirm your password" id="cpw"/>
+      </lable></center> <br>
+      <center>Gender: 
+      <label>
+        <input type="radio" value="Male" name="gender" checked > Male   
+        <input type="radio" value="Female" name="gender" > Female   
+        <input type="radio" value="Other" name="gender" > Other  
+      </label></center> <br>
+        <center>Address: <br>
+        <textarea cols="90" rows="6" value="address" id="ad">  
+        </textarea></center> <br>
+        <center>Phone number: 
+      <label>
+        <input type="text" name="country code"  value="+61" size="10" id="cc"/>   
+        <input type="text" name="phone" size="20" id="pn" placeholder="eg:123456789"/> 
+      </label></center> <br>
+
+        <center><button type="button" onclick="getInputValue();">Confirm</button>
+        <input type="button" onclick="resetForm()" value="Reset"></center>
+    </form>
+    <P id="displayfn"></P> 
+        <P id="displayln"></P>
+        <P id="displayun"></P>
+        <P id="displayea"></P>
+        <P id="displayad"></P>
+        <P id="displaypn"></P>
+
+  <script>  
+    function getInputValue(){
+      //Selecting the input element and get its value 
+      var fn = document.getElementById("fn").value;
+      var ln = document.getElementById("ln").value;
+      var pw = document.getElementById("pw").value;
+      var cpw = document.getElementById("cpw").value;
+      var un = document.getElementById("un").value;
+      var ea = document.getElementById("ea").value;
+      var ad = document.getElementById("ad").value;
+      var cc = document.getElementById("cc").value;
+      var pn = document.getElementById("pn").value;
+
+      if (fn == 0 || ln == 0 || pw == 0 || cpw == 0 || ad == 0 || pn == 0 ) {
+      document.getElementById("displayfn").innerText = "error msg";
+      //break;
+    }
+        else if (pw != cpw) {
+          document.getElementById("displayfn").innerText = "password error";
+          document.getElementById("pw").value="";
+          document.getElementById("cpw").value="";
+          //break;
+        }
+        else {
+          document.getElementById("displayfn").innerText = "The details you entered were:" + '\n' + '\n' + "First Name: " + fn;
+          document.getElementById("displayln").innerText = "Last Name: " + ln;
+          document.getElementById("displayun").innerText= "User Name: " + un;
+          document.getElementById("displayea").innerText= "Email Address: " + ea;
+          document.getElementById("displayad").innerText= "Address: " + ad;
+          document.getElementById("displaypn").innerText= "Phone Number: " + cc + " " + pn;
+
+        //Displaying the value
+        //alert("What you entered was: " + inputVal);
+      }
+    }   
+
+  </script>
+
+      <script>
+        function resetForm() {
+            document.getElementById("frm1").reset();
+      
+        }
+      </script>  
+  </form>
+  <br><br><br><hr>
+<!-- End Form -->
+
+
+<!-- Table 1 -->
+<a id="table1"></a><a id="filter"></a><br><br>
+  <div class="container">
+    <br><center><h1>Our Community</h1></center><br>
+    <center><h1><i class="fas fa-heart"></i></h1></center>
+    <br><br>
+    <center><p>Dive into the world of the Association of Enthusiasts for Vietnamese Culture and meet some remarkable individuals 
+      who share a fervent passion for understanding and celebrating this captivating heritage.</p></center><br>
+      <p>Type something in the input field to search the table for first names, last names or emails:</p>  
+      <input class="form-control" id="myInput" type="text" placeholder="Search..">
+      <br>
+      <table class="table table-bordered table-striped">
+    <thead>
+      <tr>
+        <th>Full name</th>
+        <th>Email</th>
+      </tr>
+    </thead>
+    <tbody id="myTable">
+      <tr>
+        <th>Ngo Quyen</th>
+        <th>ngoquyen123@gmail.com</th>
+      </tr>
+      <tr>
+        <th>Dinh Bo Linh</th>
+        <th>dinhbolinh@gmail.com</th>
+      </tr>
+      <tr>
+        <th>Le Hoan</th>
+        <th>nguoiconthanhhoa941@gmail.com</th>
+      </tr>
+      <tr>
+        <th>Ly Thuong Kiet</th>
+        <th>kietlyquan3trieu@gmail.com</th>
+      </tr>
+      <tr>
+        <th>Tran Hung Dao</th>
+        <th>tranhungdao@gmail.com</th>
+      </tr>
+      <tr>
+        <th>Nguyen Hue</th>
+        <th>123concachoanhhonvaoma@gmail.com</th>
+      </tr>
+      <tr>
+        <th>Vo Nguyen Giap</th>
+        <th>bacgiapquangbinh@gmail.com</th>
+      </tr>
+      <tr>
+        <th>Ly Ong Trong</th>
+        <th>lyongtrong567@gmail.com</th>
+      </tr>
+      <tr>
+        <th>Pham Ngu Lao</th>
+        <th>danhtuongnhatran@gmail.com</th>
+      </tr>
+      <tr>
+        <th>Phung Hung</th>
+        <th>vathodanhnguoi123@gmail.com</th>
+      </tr>
+      <tr>
+        <th>Nguyen Chi Thanh</th>
+        <th>thanhnguyenchi@gmail.com</th>
+      </tr>
+      <tr>
+        <th>Le Trong Tan</th>
+        <th>trongtanle@gmail.com</th>
+      </tr>
+      <tr>
+        <th>Hai Ba Trung</th>
+        <th>trungtractrungnhi@gmail.com</th>
+      </tr>
+      <tr>
+        <th>Le Chan</th>
+        <th>nutuonglechan@gmail.com</th>
+      </tr>
+    </tbody>
+    </table><br>
+    <a id="modal"></a>
+    <center><p>As you journey alongside these passionate individuals, 
+      you'll be inspired by their unwavering commitment to uncovering the essence of Vietnamese culture. 
+      Join us in celebrating their contributions and expanding your own understanding of this captivating tapestry.</p></center>
+  </div>
+
+<!-- Filter -->
+  <script> 
+    $(document).ready(function(){
+      $("#myInput").on("keyup", function() {
+        var value = $(this).val().toLowerCase();
+        $("#myTable tr").filter(function() {
+          $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)
+        });
+      });
+    });
+    </script>
+  <br>
+<!-- End Filter -->
+
+<!-- End Table 1 -->
+
+
+<!-- MODAL -->
+<br><br>
+<center><div class="container">
+
+  <!-- Trigger the modal with a button -->
+  <button type="button" class="btn btn-info" data-toggle="modal" data-target="#myModal">Congratulations!</button>
+
+  <!-- Modal -->
+  <div class="modal fade" id="myModal" role="dialog">
+    <div class="modal-dialog">
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title">Congratulations!!!!</h4>
+        </div>
+        <div class="modal-body">
+          <p>You have truly become an invaluable member of our exceptional team!!!!</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+</div></center><br><br><br><hr>
+<!-- END MODAL -->
+
+
+
+
+<!-- COLLAPSIBLE TEXT -->
+<a id="coll"></a><br><br>
+<br><center><h1>About Us</h1></center><br>
+
+<div class="container">
+  <center><button type="button" class="btn btn-info" data-toggle="collapse" data-target="#demo">VietWeb</button></center>
+  <center><div id="demo" class="collapse">
+    Welcome to VietWeb, your gateway to the enchanting world of Vietnam's culture and heritage. Our platform is meticulously designed for individuals who possess a deep curiosity about Vietnam and its rich tapestry of traditions. Whether you're an avid traveler, a cultural enthusiast, or simply someone intrigued by the allure of this Southeast Asian gem, VietWeb is here to guide you on a captivating journey of discovery.
+
+    At the heart of VietWeb's creation is a dynamic team of four dedicated individuals, each passionate about unveiling the wonders of Vietnam. Terry Luong, our talented content creator, weaves compelling narratives that transport you to the heart of Vietnamese culture. Grace Patel, a visionary web designer, crafts captivating digital landscapes that seamlessly blend aesthetics and functionality. Olivia Bennett, our coding virtuoso, ensures that our websites and web pages are seamlessly navigable, enriching your browsing experience. And lastly, Ava Singh, our creative graphics maestro, adds a visual dimension to our content, bringing the spirit of Vietnam to life through stunning imagery.
+    
+    Together, we're committed to curating an immersive experience that illuminates every facet of Vietnam, from its ancient traditions to its vibrant modern identity. Join us on this exhilarating voyage as we embark on a quest to unravel the beauty, history, and culture of Vietnam, one digital page at a time.
+  </div></center>
+</div><br><br><br>
+
+<!-- END COLLAPSIBLE TEXT -->
+
+
+<!-- spinners -->
+<div class="container">
+  <center><div class="container">                
+    <div class="spinner-border text-muted"></div><br><br><br><br>
+    <div class="spinner-border text-muted"></div><br><br><br><br>
+    <div class="spinner-border text-muted"></div><br><br><br><br>
+    <div class="spinner-border text-muted"></div><br><br><br><br>
+    <div class="spinner-border text-muted"></div><br><br><br><br>
+    <div class="spinner-border text-muted"></div><br><br><br><br>
+    <div class="spinner-border text-muted"></div><br><br><br><br>
+    <div class="spinner-border text-muted"></div><br><br><br><br>
+    <div class="spinner-border text-muted"></div><br><br><br><br>
+    <div class="spinner-border text-muted"></div><br><br><br><br>
+    <div class="spinner-border text-muted"></div><br><br><br><br>
+    <div class="spinner-border text-muted"></div><br><br><br><br>
+    <div class="spinner-border text-muted"></div><br><br><br><br>
+    <div class="spinner-border text-muted"></div><br><br><br><br>
+    <div class="spinner-border text-muted"></div><br><br><br><br>
+    <div class="spinner-border text-muted"></div><br><br><br><br>
+    <div class="spinner-border text-muted"></div><br><br><br><br>
+    <div class="spinner-border text-muted"></div><br><br><br><br>
+    <div class="spinner-border text-muted"></div><br><br><br><br>
+    <div class="spinner-border text-muted"></div><br><br><br><br>
+    <div class="spinner-border text-muted"></div><br><br><br><br>
+    <div class="spinner-border text-muted"></div><br><br><br><br>
+    <div class="spinner-border text-muted"></div><br><br><br><br>
+    <div class="spinner-border text-muted"></div><br><br><br><br>
+    <div class="spinner-border text-muted"></div><br><br><br><br>
+    <div class="spinner-border text-muted"></div><br><br><br><br>
+    <div class="spinner-border text-muted"></div><br><br><br><br>
+    <div class="spinner-border text-muted"></div><br><br><br><br>
+    <div class="spinner-border text-muted"></div><br><br><br><br>
+    <div class="spinner-border text-muted"></div><br><br><br><br>
+    <div class="spinner-border text-muted"></div><br><br><br><br>
+    <div class="spinner-border text-muted"></div><br><br><br><br>
+    <div class="spinner-border text-muted"></div><br><br><br><br>
+    <div class="spinner-border text-muted"></div><br><br><br><br>
+    <div class="spinner-border text-muted"></div><br><br><br><br>
+    <div class="spinner-border text-muted"></div><br><br><br><br>
+    <div class="spinner-border text-muted"></div><br><br><br><br>
+    <div class="spinner-border text-muted"></div><br><br><br><br>
+    <div class="spinner-border text-muted"></div><br><br><br><br>
+    <div class="spinner-border text-muted"></div><br><br><br><br>
+    <div class="spinner-border text-muted"></div><br><br><br><br>
+    <div class="spinner-border text-muted"></div><br><br><br><br>
+    <div class="spinner-border text-muted"></div><br><br><br><br>
+    <div class="spinner-border text-muted"></div><br><br><br><br>
+    <div class="spinner-border text-muted"></div><br><br><br><br>
+    <div class="spinner-border text-muted"></div><br><br><br><br>
+    <div class="spinner-border text-muted"></div><br><br><br><br>
+    <div class="spinner-border text-muted"></div><br><br><br><br>
+    <div class="spinner-border text-muted"></div><br><br><br><br>
+    <div class="spinner-border text-muted"></div><br><br><br><br>
+    <div class="spinner-border text-muted"></div><br><br><br><br>
+    <div class="spinner-border text-muted"></div><br><br><br><br>
+    <div class="spinner-border text-muted"></div><br><br><br><br>
+    <div class="spinner-border text-muted"></div><br><br><br><br>
+    <div class="spinner-border text-muted"></div><br><br><br><br>
+    <div class="spinner-border text-muted"></div><br><br><br><br>
+    <div class="spinner-border text-muted"></div><br><br><br><br>
+    <div class="spinner-border text-muted"></div><br><br><br><br>
+    <div class="spinner-border text-muted"></div><br><br><br><br>
+    <div class="spinner-border text-muted"></div><br><br><br><br>
+    <div class="spinner-border text-muted"></div><br><br><br><br>
+    <div class="spinner-border text-muted"></div><br><br><br><br>
+    <div class="spinner-border text-muted"></div><br><br><br><br>
+    <div class="spinner-border text-muted"></div><br><br><br><br>
+    <div class="spinner-border text-muted"></div><br><br><br><br>
+    <div class="spinner-border text-muted"></div><br><br><br><br>
+    <div class="spinner-border text-muted"></div><br><br><br><br>
+    <div class="spinner-border text-muted"></div><br><br><br><br>
+    <div class="spinner-border text-muted"></div><br><br><br><br>
+    <div class="spinner-border text-muted"></div><br><br><br><br>
+    <div class="spinner-border text-muted"></div><br><br><br><br>
+    <div class="spinner-border text-muted"></div><br><br><br><br>
+    <div class="spinner-border text-muted"></div><br><br><br><br>
+    <div class="spinner-border text-muted"></div><br><br><br><br>
+    <div class="spinner-border text-muted"></div><br><br><br><br>
+    <div class="spinner-border text-muted"></div><br><br><br><br>
+    <div class="spinner-border text-muted"></div><br><br><br><br>
+    <div class="spinner-border text-muted"></div><br><br><br><br>
+    <div class="spinner-border text-muted"></div><br><br><br><br>
+    <div class="spinner-border text-muted"></div><br><br><br><br>
+    <div class="spinner-border text-muted"></div><br><br><br><br>
+    <div class="spinner-border text-muted"></div><br><br><br><br>
+    <div class="spinner-border text-muted"></div><br><br><br><br>
+    <div class="spinner-border text-muted"></div><br><br><br><br>
+    <div class="spinner-border text-muted"></div><br><br><br><br>
+    <div class="spinner-border text-muted"></div><br><br><br><br>
+    <div class="spinner-border text-muted"></div><br><br><br><br>
+    <div class="spinner-border text-muted"></div><br><br><br><br>
+    <div class="spinner-border text-muted"></div><br><br><br><br>
+    <div class="spinner-border text-muted"></div><br><br><br><br>
+    <div class="spinner-border text-muted"></div><br><br><br><br>
+    <div class="spinner-border text-muted"></div><br><br><br><br>
+    <div class="spinner-border text-muted"></div><br><br><br><br>
+    <div class="spinner-border text-muted"></div><br><br><br><br>
+    <div class="spinner-border text-muted"></div><br><br><br><br>
+    <div class="spinner-border text-muted"></div><br><br><br><br>
+    <div class="spinner-border text-muted"></div><br><br><br><br>
+    <div class="spinner-border text-muted"></div><br><br><br><br>
+    <div class="spinner-border text-muted"></div><br><br><br><br>
+    <div class="spinner-border text-muted"></div><br><br><br><br>
+    <div class="spinner-border text-muted"></div><br><br><br><br>
+    <div class="spinner-border text-muted"></div><br><br><br><br>
+    <div class="spinner-border text-muted"></div><br><br><br><br>
+    <div class="spinner-border text-muted"></div><br><br><br><br>
+    <div class="spinner-border text-muted"></div><br><br><br><br>
+    <div class="spinner-border text-muted"></div><br><br><br><br>
+    <div class="spinner-border text-muted"></div><br><br><br><br>
+    <div class="spinner-border text-muted"></div><br><br><br><br>
+    <div class="spinner-border text-muted"></div><br><br><br><br>
+    <div class="spinner-border text-muted"></div><br><br><br><br>
+    <div class="spinner-border text-muted"></div><br><br><br><br>
+    <div class="spinner-border text-muted"></div><br><br><br><br>
+    <div class="spinner-border text-muted"></div><br><br><br><br>
+    <div class="spinner-border text-muted"></div><br><br><br><br>
+    <div class="spinner-border text-muted"></div><br><br><br><br>
+    <div class="spinner-border text-muted"></div><br><br><br><br>
+    <div class="spinner-border text-muted"></div><br><br><br><br>
+    <div class="spinner-border text-muted"></div><br><br><br><br>
+    <div class="spinner-border text-muted"></div><br><br><br><br>
+    <div class="spinner-border text-muted"></div><br><br><br><br>
+    <div class="spinner-border text-muted"></div><br><br><br><br>
+    <div class="spinner-border text-muted"></div><br><br><br><br>
+  </div></center>
+</div>
+<!-- spinners -->
+
+
+<!-- JUMBOTRON -->
+<a id="jumbo"></a><br><br>
+<div class="jumbotron" aria-posinset="center" style="background-color:#955e36; color: black;">
+  <center><h1>Contact Us</h1></center><br>
+  <center><h1><i class="fas fa-heart"></i></h1></center>
+  <br>
+  <center><p>Discover the beauty and diversity of Vietnam through our comprehensive website. 
+    Immerse yourself in rich cultural insights, breathtaking landscapes, and vibrant traditions that make Vietnam truly unique. 
+    For inquiries or assistance, please feel free to reach out to us via email, or contact us directly at. 
+    We look forward to helping you experience the best of Vietnam.</p></center><br><br>
+
+<!-- img shape -->
+<a id="tool"></a>
+<div class="container">
+  <center><div class="row">
+    <section class="col">
+      <img src="images/p6.png" class="rounded-circle" alt="Cinque Terre" width="50" height="50">     lotuscare22@gmail.com
+    </section>
+    <section class="col">
+      <img src="images/p7.png" class="rounded-circle" alt="Cinque Terre" width="50" height="50">     +61 123 456 789
+  </div></center>
+</div><br><br>
+<!-- img shape -->
+
+
+</div><br>
+<!-- END JUMBOTRON -->
+
+
+<!-- media objects -->
+<a id="media"></a><br><br>
+<div class="container mt-3">
+  <br><center><h1>Our Team Member</h1></center><br>
+  <center><h1><i class="fas fa-heart"></i></h1></center>
+  <br>
+  <center><p>We are a dynamic web creation group comprised of four talented individuals, 
+    each contributing their unique skills to bring our projects to life.</p></center><br>
+
+<!-- left-aligned media image -->
+  <div class="media border p-3">
+    <img src="images/mem1.jpg" alt="John Doe" class="mr-3 mt-3 rounded-circle" style="width: 100px; height: 100px;">
+    <div class="media-body">
+      <h4>Terry Luong    <small><i>Posted on May 20, 2023</i></small></h4>
+      <p>Leading the way is Terry Luong, 
+        a skilled web content creator who possesses the remarkable ability to transform ideas into captivating digital narratives. 
+        Terry's expertise in crafting engaging and informative content not only enhances 
+        the user experience but also leaves a lasting impact on our audience. With her dedication and creativity, 
+        Terry plays an instrumental role in shaping our web creations, ensuring they resonate with visitors and fulfill 
+        their informational and entertainment needs.</p>
+    </div>
+  </div><br>
+<!-- left-aligned media image -->
+
+<!-- right-aligned media image -->
+  <div class="media border p-3">
+    <div class="media-body">
+      <h4>Grace Patel    <small><i>Posted on May 20, 2023</i></small></h4>
+      <p>Among our adept team members, we have Grace Patel, 
+        an accomplished web designer whose creative vision transforms concepts into visually stunning digital landscapes. 
+        Grace's meticulous attention to detail and innovative approach result 
+        in user-friendly and visually appealing interfaces that enhance the overall browsing experience. 
+        With a knack for harmonizing aesthetics and functionality, Grace plays a pivotal role in bringing our web projects to life, 
+        leaving an indelible mark on the design aesthetics and user interface of our creations.</p>
+    </div>
+    <img src="images/mem2.jpg" alt="John Doe" class="mr-3 mt-3 rounded-circle" style="width: 100px; height: 100px;">
+  </div><br>
+<!-- right-aligned media image -->
+
+<!-- left-aligned media image -->
+  <div class="media border p-3">
+    <img src="images/mem3.jpg" alt="John Doe" class="mr-3 mt-3 rounded-circle" style="width: 100px; height: 100px;">
+    <div class="media-body">
+      <h4>Olivia Bennett    <small><i>Posted on May 20, 2023</i></small></h4>
+      <p>Introducing Olivia Bennett, 
+        a coding virtuoso who holds the key to the technical intricacies of our web projects. 
+        Olivia's mastery in crafting clean, efficient, and dynamic code is the backbone of our online platforms. 
+        Her expertise ensures seamless navigation, interactive features, and optimized performance, 
+        guaranteeing that our websites and web pages function flawlessly. With Olivia's dedication to precision and problem-solving, 
+        she empowers our team to deliver digital experiences that seamlessly blend form and function, 
+        making our projects truly stand out in the digital realm.</p>
+    </div>
+  </div>
+<!-- left-aligned media image -->
+
+<!-- right-aligned media image -->
+  <div class="media border p-3">
+    <div class="media-body">
+      <h4>Ava Singh    <small><i>Posted on May 20, 2023</i></small></h4>
+      <p>Meet Ava Singh, 
+        a creative powerhouse responsible for infusing our web creations with visually captivating graphics and imagery. 
+        With an innate talent for translating concepts into stunning visuals, 
+        Ava's artistic flair breathes life into our online presence. 
+        Her ability to evoke emotions and convey messages through images adds depth and resonance to our projects. 
+        From eye-catching banners to expressive illustrations, 
+        Ava's contributions enrich the visual storytelling aspect of our work, 
+        ensuring that our websites are not only informative but also visually striking, 
+        leaving a lasting impression on our visitors.</p>
+    </div>
+    <img src="images/mem4.jpg" alt="John Doe" class="mr-3 mt-3 rounded-circle" style="width: 100px; height: 100px;">
+  </div>
+<!-- right-aligned media image -->
+
+</div>
+<br><br><br>
+<!-- media objects -->
+
+
+<!-- logo -->
+<div class="header">
+  <center><h1 style="height:max-content;"><img width="130" height="130" src="images/logo.png">
+</h1</center>
+</div><br><br>
+<!-- logo -->
+
+
+
+<!-- Footer start -->
+<a id="foot"></a><br>
+<div class="jumbotron2 text-center" style="margin-bottom: 0; color:black; background-color: #955e36;" >
+<br>
+<p>exercise portfolio build by Terry Luong 2023</p><br>
+</div>
+<!-- Footer endddd -->
+
+
+  <script src="js/jquery.slim.min.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+</body>
+
+</html>
